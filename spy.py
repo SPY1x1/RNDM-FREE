@@ -16,9 +16,9 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from SpY64 import key_chack
+        from SpY import menu
  
-        key_chack()
+        menu()
  
  
  
