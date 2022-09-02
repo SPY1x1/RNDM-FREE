@@ -24,13 +24,12 @@ if bit == "64bit":
  
 elif bit == "32bit":
  
-        print("   your device is 32 bit ")
+        from SpY32 import menu
         
-        print("   32 bit will update soon")
+        menu()
         
-        os.system("am start https://www.facebook.com/SPY1x1/")
-        
-        exit()
+
+
  
  
  
